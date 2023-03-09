@@ -1,0 +1,49 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height: 500px;
+    background: url("https://cdn.pixabay.com/photo/2020/10/11/16/07/bedroom-5646321_960_720.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.banner-text{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner-text a{
+    text-decoration: none;
+}
+.banner-btn {
+    background: #000000;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px){
+    .banner-text{
+        padding: 0 2rem;
+    }
+}
